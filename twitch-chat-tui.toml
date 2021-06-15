@@ -1,0 +1,41 @@
+# # Configuration file for twitch-chat-tui.
+# # Optionally, each parameter can be overridden via environment variables
+# # using the TWITCH_ prefix. For example to override the `channel` parameter
+# # set the environment variable TWITCH_CHANNEL.
+#
+# # Connection parameters.
+# # The twitch channel to connect to.
+# channel = "stuck_overflow"
+#
+#
+# # Badges.
+# # Since different terminal render symbols and emoji in an inconsistent way
+# # with respect to spacing, we allow to tweak the "width" in terms of number
+# # of characters per each badge.
+# #
+# # For example the 🗡 symbol should technically render in one character
+# # space, but depending on the font use it might overflow to the next
+# # character.
+# #
+# mod_symbol = "🗡 "
+# mod_symbol_width = 2
+# vip_symbol = "💎"
+# vip_symbol_width = 2
+# subscriber_symbol = "🌟"
+# subscriber_symbol_width = 2
+# founder_symbol = "🥇"
+# founder_symbol_width = 2
+#
+#
+# # Light background for dark nicknames.
+# # If the colour of a nickname is too dark we set a lighter background to
+# # make it more visible. Set the brightness threshold below which the lighter
+# # background is enabled. The range is 0 to 255.
+# #
+# invert_below_brightness = 30
+#
+#
+# # Messages buffer size.
+# # Messages are stored in a ring buffer of constant length. Increase if you
+# # are using a very large terminal.
+# messages_buffer_size = 50
