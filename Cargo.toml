@@ -13,6 +13,6 @@ figment = { version = "0.10.5", features = [ "env", "toml" ] }
 serde = { version = "1.0.126", features = [ "derive" ] }
 structopt = "0.3.21"
 textwrap = "0.14.0"
-tokio = { version = "1.6.1", features = [ "rt-multi-thread" ] }
+tokio = { version = "1.7.0", features = [ "rt-multi-thread" ] }
 tui = { version = "0.15.0", features = [ "crossterm" ], default-features = false }
 twitch-irc = "2.2.0"
