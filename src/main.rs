@@ -153,7 +153,7 @@ pub async fn main() -> Result<()> {
                                 Span::raw(": "),
                                 Span::raw(l.to_owned()),
                             ])));
-                            for l in lines.skip(1) {
+                            for l in lines {
                                 tmpitems.push_front(ListItem::new(Spans(vec![
                                     Span::raw((0..width_for_name).map(|_| " ").collect::<String>()),
                                     Span::raw(l.to_owned()),
