@@ -18,7 +18,7 @@ TWITCH_CHANNEL=<channel-to-join> cargo run --release
 
 ## Configuration
 
-Check [twitch-chat-tui.toml](./twitch-chat-tui.toml) for instructions and for all the available configuration parameters.
+Check [`twitch-chat-tui.toml`](./twitch-chat-tui.toml) for instructions and for all the available configuration parameters.
 
 If you want to use an alternative `.toml` configuration file, run the tool with the `--config <your-file>.toml` flag.
 
