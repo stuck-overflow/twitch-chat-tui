@@ -13,7 +13,9 @@ A simple terminal interface to read Twitch chat.
 ## Quickstart
 
 ```bash
-TWITCH_CHANNEL=<channel-to-join> cargo run --release
+cargo install --git https://github.com/stuck-overflow/twitch-chat-tui.git --branch main
+
+TWITCH_CHANNEL=<channel-to-join> twitch-chat-tui
 ```
 
 ## Configuration
