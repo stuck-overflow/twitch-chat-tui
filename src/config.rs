@@ -6,7 +6,7 @@ use std::path::PathBuf;
 use structopt::StructOpt;
 
 #[derive(Debug, StructOpt)]
-#[structopt(name = "twitch", about = "Configuration flags for twitch-chat-tui")]
+#[structopt(name = "twitch-chat-tui", about = "Simple TUI client for Twitch chat.")]
 struct Flags {
     /// Config file
     #[structopt(
